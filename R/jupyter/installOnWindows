@@ -26,3 +26,6 @@ activate
 name ir --user D:/Gis/R/Versions/R-3.3.3/library/IRkernel/kernelspec
 
 (V2) D:\Project\Python3\data\pydata-book>jupyter notebook
+
+参考：
+http://paisheng.me/2015/08/16/%E5%AE%89%E8%A3%85%E7%AC%94%E8%AE%B0-%E5%9C%A8Jupyter%E4%B8%AD%E6%B7%BB%E5%8A%A0R-Kernel/
