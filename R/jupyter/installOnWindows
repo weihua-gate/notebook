@@ -1,0 +1,28 @@
+        jupyter install R on windows
+R 3.3.3
+R Path:D:/Gis/R/Versions/R-3.3.3
+Python 3.5.2
+Python Path:D:\Project\Python3\V2\Scripts
+
+Sys.setenv(BINPREF = "D:/Server/cygwin64/bin/")
+Sys.setenv(PATH = paste("D:/Gis/R/Versions/R-3.3.3/bin", Sys.getenv("PATH"), sep=";"))
+IN RGui
+> install.packages('devtools')
+> devtools::install_github('IRkernel/IRkernel')
+> IRkernel::installspec()
+Error in IRkernel::installspec() : 
+  jupyter-client has to be installed but “jupyter kernelspec --version” exited with code 127.
+此外: Warning message:
+运行命令'"jupyter" kernelspec --version'的状态是127 
+> print(system.file("kernelspec", package = "IRkernel"))
+
+In Commond
+
+cd D:\Project\Python3\V2\Scripts
+
+activate
+
+(V2) D:\Project\Python3\data\pydata-book>ipython kernelspec install --replace --
+name ir --user D:/Gis/R/Versions/R-3.3.3/library/IRkernel/kernelspec
+
+(V2) D:\Project\Python3\data\pydata-book>jupyter notebook
