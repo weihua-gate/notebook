@@ -1,0 +1,39 @@
+
+--prefix=/usr/local/nginx
+--with-http_realip_module
+--add-module=/usr/local/nginx_module/lua-nginx-module-0.9.10
+--add-module=/usr/local/nginx_module/lua-upstream-nginx-module-0.02
+--with-http_stub_status_module
+--with-http_ssl_module
+--add-module=/usr/local/nginx_module/echo-nginx-module-master/
+--add-module=/usr/local/nginx_module/ngx_http_consistent_hash-master/
+--add-module=/usr/local/nginx_module/ngx_cache_purge-1.6
+--with-pcre=/usr/local/nginx_module/pcre-8.31
+
+
+
+
+
+
+--prefix=/usr/local/nginx
+--with-http_realip_module
+--add-module=/usr/local/nginx_module/lua-nginx-module-0.9.10
+--add-module=/usr/local/nginx_module/lua-upstream-nginx-module-0.02
+--with-http_stub_status_module
+--with-http_ssl_module
+--add-module=/usr/local/nginx_module/echo-nginx-module-master/
+--add-module=/usr/local/nginx_module/ngx_http_consistent_hash-master/
+--add-module=/usr/local/nginx_module/ngx_cache_purge-1.6
+--with-pcre=/usr/local/nginx_module/pcre-8.31
+--with-ld-opt=-Wl,-rpath,/usr/local/luajit/lib
+--add-module=/usr/local/nginx_module/ngx_devel_kit
+
+
+
+
+
+./configure --prefix=/opt/openresty \
+            --with-luajit \
+            --without-http_redis2_module \
+            --with-http_iconv_module \
+            --with-http_postgres_module
