@@ -1,1 +1,8 @@
 1.https://github.com/search?o=desc&p=1&q=webpack&s=stars&type=Repositories
+2.https://github.com/search?o=desc&q=ml&s=stars&type=Repositories
+3.https://github.com/search?o=desc&q=java&s=stars&type=Repositories
+4.https://github.com/search?o=desc&q=deep+learning&s=stars&type=Repositories
+5.https://github.com/search?o=desc&q=front&s=stars&type=Repositories
+6.https://github.com/search?o=desc&q=front+end&s=stars&type=Repositories
+7.https://github.com/search?o=desc&q=back+end&s=stars&type=Repositories
+8.
