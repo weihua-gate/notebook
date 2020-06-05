@@ -15,7 +15,7 @@ cycler==0.10.0
 Cython==0.28.1
 dbfread==2.0.7
 decorator==4.2.1
-Django==1.10.4
+Django==1.11.29
 django-appconf==1.0.2
 django-compressor==2.2
 django-filter==1.0.4
